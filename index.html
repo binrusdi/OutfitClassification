@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TFJS Inference</title>
+</head>
+<body>
+    <h1>TFJS Inference</h1>
+    <h2>Image Classifications</h2>
+    <!-- Upload gambar untuk inference -->
+    <input type="file" id="imageInput" accept="image/">
+    <br><br>
+
+    <!-- Tempat untuk menampilkan gambar -->
+    <img id="uploadedImage" width="200">
+    <br><br>
+
+    <!-- Hasil inference -->
+    <h3>Prediksi</h3>
+    <p id="result">Silahkan unggah gambar</p>
+
+    <footer>
+        <p>&copy; 2024 Built with. Rusdiana.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="script.js"></script>
+</body>
+</html>

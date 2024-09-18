@@ -1,0 +1,57 @@
+style.css
+
+/* Reset margin dan padding untuk semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya untuk body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Gaya untuk heading */
+h1 {
+    color: #333;
+    margin-bottom: 0;
+}
+
+/* Gaya untuk gambar yang diupload */
+#uploadedImage {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 5px;
+}
+
+/* Gaya untuk input file */
+#imageInput {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Gaya untuk hasil inference */
+h3 {
+    color: #555;
+    margin-top: 20px;
+}
+
+#result {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #007BFF;
+}
