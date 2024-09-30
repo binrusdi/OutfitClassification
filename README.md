@@ -29,7 +29,7 @@ Proyek ini bertujuan untuk membangun model Convolutional Neural Network (CNN) un
 
 ## Inference
 * Untuk melakukan inference, gunakan python -m server.http di folder inference
-* sebelum menjalankan inference, gunakan sylink dengan menggunakan powershell
+* sebelum menjalankan inference, gunakan symlink dengan menggunakan powershell
 * Masuk terlebih dahulu ke folder inference di terminal PS kemudian jalankan perintah New-Item -ItemType SymbolicLink -Path "tfjs_model" -Target "..\tfjs_model"
 * Jika sudah selesai, jalankan server dengan menggunakan python -m http.server di dalam folder inference
 
