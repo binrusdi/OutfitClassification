@@ -28,12 +28,13 @@ Proyek ini bertujuan untuk membangun model Convolutional Neural Network (CNN) un
     *   TFJS
 
 ## Inference
-* Untuk melakukan inference, gunakan python -m server.http di folder inference
+* Untuk melakukan inference, gunakan ```python -m server.http``` di folder inference
 * sebelum menjalankan inference, gunakan symlink dengan menggunakan powershell
-* Masuk terlebih dahulu ke folder inference di terminal PS kemudian jalankan perintah New-Item -ItemType SymbolicLink -Path "tfjs_model" -Target "..\tfjs_model"
-* Jika sudah selesai, jalankan server dengan menggunakan python -m http.server di dalam folder inference
+* Masuk terlebih dahulu ke folder inference di terminal PS kemudian jalankan perintah ```New-Item -ItemType SymbolicLink -Path "tfjs_model" -Target "..\tfjs_model```"
+* Jika sudah selesai, jalankan server dengan menggunakan ```python -m http.server``` di dalam folder inference
 
 ## Jika anda membutuhkan jawaban atas pertanyaan anda, silahkan kontak saya atau koment di issue.
 
+Link Inference [Outfit Classification](https://outfit-classification.vercel.app/)
 Terima kasih
 Rusdiana
